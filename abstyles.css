@@ -1,0 +1,52 @@
+/* Стили для всего сайта about.html*/
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+header {
+  background-color: #e0d0d073;
+  color: white;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+li {
+  display: inline;
+  margin-right: 10px;
+  background-color: white;
+  color: #121212;
+}
+
+img {
+  /* display: flex; */
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* justify-content: space-evenly; */
+  /* gap: 100px; */
+  /* padding: 10px; */
+  width: 750px;
+  height: 750px;
+  /* background-color: white; */
+  border: 1px solid #e0d0d073;
+  /* margin-bottom: 20px; */
+  padding: 10px;
+  /* text-align: center; */
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  /* position: fixed; */
+}
+
+footer {
+  background-color: #e0d0d073;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
